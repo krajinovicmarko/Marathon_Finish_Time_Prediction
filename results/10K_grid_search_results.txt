@@ -1,0 +1,162 @@
+Model: xgb
+
+Best Parameters:
+XGB__subsample: 0.9
+XGB__n_estimators: 50
+XGB__max_depth: 5
+XGB__learning_rate: 0.1
+XGB__colsample_bytree: 1.0
+
+Best Score: -717.1929309144699
+mae: 715.866597019634
+mse: 987974.7986080189
+rmse: 993.969214114813
+r2: 0.837536338964619
+
+------------------------------------------------------------------------------
+Model: gbr
+
+Best Parameters:
+GBR__subsample: 0.8
+GBR__n_estimators: 100
+GBR__max_depth: 3
+GBR__learning_rate: 0.1
+
+Best Score: -727.3250639340964
+mae: 725.9847986525255
+mse: 983452.473771259
+rmse: 991.6917231535508
+r2: 0.8382799950279178
+
+------------------------------------------------------------------------------
+Model: cat
+
+Best Parameters:
+CAT__subsample: 0.8
+CAT__learning_rate: 0.1
+CAT__l2_leaf_reg: 3
+CAT__iterations: 200
+CAT__depth: 7
+
+Best Score: -728.7158114666981
+mae: 727.0892303590382
+mse: 985762.1811720558
+rmse: 992.8555691398703
+r2: 0.8379001842060398
+
+------------------------------------------------------------------------------
+Model: lgbr
+
+Best Parameters:
+LGBR__subsample: 0.9
+LGBR__n_estimators: 100
+LGBR__max_depth: 5
+LGBR__learning_rate: 0.1
+LGBR__colsample_bytree: 0.9
+
+Best Score: -729.3699508098707
+mae: 726.4192537246118
+mse: 985278.9520974751
+rmse: 992.6121861520113
+r2: 0.8379796469258236
+
+------------------------------------------------------------------------------
+Model: lasso
+
+Best Parameters:
+LASSO__alpha: 1e-15
+
+Best Score: -730.2420400601666
+mae: 728.9397999121562
+mse: 991780.6604458807
+rmse: 995.881850645889
+r2: 0.8369104988637935
+
+------------------------------------------------------------------------------
+Model: ridge
+
+Best Parameters:
+RIDGE__alpha: 1e-10
+
+Best Score: -730.2420400601915
+mae: 728.9397999121825
+mse: 991780.6604458769
+rmse: 995.8818506458871
+r2: 0.8369104988637941
+
+------------------------------------------------------------------------------
+Model: rf
+
+Best Parameters:
+RF__n_estimators: 100
+RF__min_samples_split: 2
+RF__min_samples_leaf: 4
+RF__max_features: 1.0
+RF__max_depth: 10
+RF__bootstrap: True
+
+Best Score: -731.679566850775
+mae: 728.4010508369535
+mse: 991441.4607749038
+rmse: 995.7115349210853
+r2: 0.8369662772302524
+
+------------------------------------------------------------------------------
+Model: dt
+
+Best Parameters:
+DT__min_samples_split: 2
+DT__min_samples_leaf: 2
+DT__max_depth: 5
+
+Best Score: -739.28731110701
+mae: 736.3595661869911
+mse: 1010265.010313921
+rmse: 1005.1194010235406
+r2: 0.8338709120690173
+
+------------------------------------------------------------------------------
+Model: et
+
+Best Parameters:
+ET__n_estimators: 100
+ET__min_samples_split: 10
+ET__min_samples_leaf: 1
+ET__max_features: sqrt
+ET__max_depth: 15
+
+Best Score: -742.3519352573833
+mae: 737.5140526579171
+mse: 997279.1931760868
+rmse: 998.6386699783294
+r2: 0.8360063141022684
+
+------------------------------------------------------------------------------
+Model: knn
+
+Best Parameters:
+KNN__weights: uniform
+KNN__p: 2
+KNN__n_neighbors: 9
+
+Best Score: -770.4931131485067
+mae: 763.3503923790339
+mse: 1082737.1254579308
+rmse: 1040.54655131711
+r2: 0.8219535178542434
+
+------------------------------------------------------------------------------
+Model: ada
+
+Best Parameters:
+ADA__n_estimators: 200
+ADA__loss: linear
+ADA__learning_rate: 0.01
+
+Best Score: -788.5349336100796
+mae: 785.9356511527182
+mse: 1099163.1217552072
+rmse: 1048.4098062090068
+r2: 0.8192524089814575
+
+------------------------------------------------------------------------------
